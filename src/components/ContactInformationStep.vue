@@ -56,7 +56,7 @@
 <script setup lang="ts">
 import { bookRoom, getRoomDetail } from '@/api/booking'
 import { useBookingStore } from '@/stores/booking'
-import { type Room, type Contact } from '@/types/booking'
+import type { Contact, Room } from '@/types/booking'
 import { DateUtils } from '@/utils/DateUtils'
 import { computed, onMounted, ref } from 'vue'
 import { useToast } from 'vue-toastification'
